@@ -20,12 +20,12 @@ class _HomePageState extends State<HomePage> {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Lottie.asset('lib/asset/animations/notebook.json', width: 200),
+        Lottie.asset('lib/asset/animations/note.json', width: 200),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text('Em desenvolvimento...'),
-            Lottie.asset('lib/asset/animations/loading.json', width: 200),
+          children: const [
+            Text('Em desenvolvimento...',
+                style: TextStyle(fontFamily: 'George', fontSize: 32)),
           ],
         )
       ],
