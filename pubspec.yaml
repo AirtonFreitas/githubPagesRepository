@@ -31,7 +31,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  lottie: ^2.0.0
+  url_launcher: ^6.1.9
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -62,7 +62,9 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - lib/asset/animations/
+    - asset/animations/
+    - asset/images/
+    - asset/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -78,7 +80,27 @@ flutter:
   fonts:
     - family: George
       fonts:
-        - asset: lib/asset/fonts/LouisGeorgeCafe.ttf
+        - asset: asset/fonts/LouisGeorgeCafe.ttf
+    - family:
+      fonts:
+        - asset: asset/fonts/LouisGeorgeCafeBold.ttf
+          weight: 700
+    - family: GeorgeItalic
+      fonts:
+        - asset: asset/fonts/LouisGeorgeCafeItalic.ttf
+          style: italic
+    - family: GeorgeLigth
+      fonts:
+        - asset: asset/fonts/LouisGeorgeCafeLight.ttf
+    - family: GeorgeBoldItalic
+      fonts:
+        - asset: asset/fonts/LouisGeorgeCafeBoldItalic.ttf
+          style: italic
+          weight: 700
+    - family: GeorgeLigthItalic
+      fonts:
+        - asset: asset/fonts/LouisGeorgeCafeLightItalic.ttf
+          style: italic
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
