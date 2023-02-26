@@ -7,7 +7,10 @@ class ColorsUtil {
   static const grayz = Color(0xFFA8A8A8);
   static const grayC = Color(0xFFE8E8E8);
   static const grayDark = Color(0xFF4D4D4D);
+  static const blackAc = Color(0xFF232323);
+  static const grayAc = Color(0xFF2b2b2b);
   static const grayDarkB = Color(0xFF1F1F1F);
+  static const greenAc = Color(0xFF1CFF00);
   static const green = Color(0xFFA3F29A);
   static const greenOne = Color(0xFFA4EF86);
   static const greenTwo = Color(0xFF548540);

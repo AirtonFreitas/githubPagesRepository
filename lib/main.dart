@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Airton Freitas',
       theme: ThemeData(
-        fontFamily: 'George',
+        fontFamily: 'CaviarDreams',
         primarySwatch: Colors.blue,
       ),
       onGenerateRoute: RouteGenerator.generateRoute,

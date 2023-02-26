@@ -32,6 +32,7 @@ dependencies:
   flutter:
     sdk: flutter
   url_launcher: ^6.1.9
+  carousel_slider: ^4.2.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -78,29 +79,16 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: George
+    - family: CaviarDreams
       fonts:
-        - asset: asset/fonts/LouisGeorgeCafe.ttf
-    - family:
+        - asset: asset/fonts/CaviarDreams.ttf
+    - family: CaviarDreamsB
       fonts:
-        - asset: asset/fonts/LouisGeorgeCafeBold.ttf
+        - asset: asset/fonts/CaviarDreams_Bold.ttf
           weight: 700
-    - family: GeorgeItalic
+    - family: Coolvetica
       fonts:
-        - asset: asset/fonts/LouisGeorgeCafeItalic.ttf
-          style: italic
-    - family: GeorgeLigth
-      fonts:
-        - asset: asset/fonts/LouisGeorgeCafeLight.ttf
-    - family: GeorgeBoldItalic
-      fonts:
-        - asset: asset/fonts/LouisGeorgeCafeBoldItalic.ttf
-          style: italic
-          weight: 700
-    - family: GeorgeLigthItalic
-      fonts:
-        - asset: asset/fonts/LouisGeorgeCafeLightItalic.ttf
-          style: italic
+        - asset: asset/fonts/Coolvetica.otf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
